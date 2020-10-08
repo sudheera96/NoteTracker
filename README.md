@@ -8,15 +8,15 @@ We can create assignments logs when we open the app. For doing those assignments
 
 ## Note Tracker Application user stories
 
-1. As a user, I want to open application
-1. As a user, after opening application, I want to create assignment log. 
-1. As a user, after creating assignment log, I want to add submission date and time. 
-1. As a user, after adding submission date and time, I want to set alert for start doing the assignment.
-1. As a user, for displaying alert with sound and message on screen, I want to provide message.
-1. As a user, after getting remainder of alert, I want to start the timer for doing the assignment.
+1. As a user, I want to open application.
+1. As a user, I want to create assignment log, after opening application.
+1. As a user, I want to add submission date and time, after creating assignment log. 
+1. As a user, I want to set alert for start doing the assignment, after adding submission date and time.
+1. As a user, I want to provide message, for displaying alert with sound and message on screen.
+1. As a user, I want to start the timer for doing the assignment, after getting remainder of alert.
 1. As a user, I want to pause the timer.
 1. As a user, I want to stop the timer.
-1. As a user, I want to share the my assignment log.
+1. As a user, I want to share my assignment log.
 1. As a user, I want to move back to first activity of app from creating assignment log.
 1. As a user, I want to add more assignment logs.
 1. As a user, I want to see all my assigment logs.
