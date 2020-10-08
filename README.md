@@ -23,3 +23,9 @@ We can create assignments logs when we open the app. For doing those assignments
 
 ## Note Tracker Activities 
 
+### Activity 3 
+
+Creating Assignment log, providing submisiion date and time, Timer for starting the assignment, making priority, providing alert
+
+![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Activity%203.png)
+
