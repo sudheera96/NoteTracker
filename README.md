@@ -21,6 +21,8 @@ We can create assignments logs when we open the app. For doing those assignments
 1. As a user, I want to move back to first activity of app from creating assignment log.
 1. As a user, I want to add more assignment logs.
 1. As a user, I want to see all my assigment logs.
+1. As a user, I want to delete my assignment log.
+
 
 ## Note Tracker Activities 
 
