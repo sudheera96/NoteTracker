@@ -17,4 +17,6 @@ We can create assignments logs when we open the app. For doing those assignments
 1. As a user, I want to pause the timer.
 1. As a user, I want to stop the timer.
 1. As a user, I want to share the my assignment log.
+1. As a user, I want to move back to first activity of app from creating assignment log.
+1. As a user, I want to add more assignments logs.
 
