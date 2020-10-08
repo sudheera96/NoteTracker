@@ -10,4 +10,6 @@ We can create assignments logs when we open the app. For doing those assignments
 
 1. As a user, I want to open application
 1. As a user, after opening application, I want to create assignment log. 
+1. As a user, after creating assignment log, I want to add submission date and time. 
+1. As a user, after adding submission date and time, I want to set alert for start doing the assignment.
 
