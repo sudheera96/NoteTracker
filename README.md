@@ -21,3 +21,5 @@ We can create assignments logs when we open the app. For doing those assignments
 1. As a user, I want to add more assignment logs.
 1. As a user, I want to see all my assigment logs.
 
+## Note Tracker Activities 
+
