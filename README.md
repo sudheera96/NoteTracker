@@ -16,4 +16,5 @@ We can create assignments logs when we open the app. For doing those assignments
 1. As a user, after getting remainder of alert, I want to start the timer for doing the assignment.
 1. As a user, I want to pause the timer.
 1. As a user, I want to stop the timer.
+1. As a user, I want to share the my assignment log.
 
