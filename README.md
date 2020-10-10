@@ -59,18 +59,19 @@ Creating Assignment log, providing submisiion date and time, Timer for starting 
 work and we can assign date and time and can set alarm and finall screen it gives the display of the message and user can enter the information regarding to it.
 
 updated screens and  navigation  from one screen to another screen
-first screen
+
+## First screen
 
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/first_screen.png)
 
-second screen 
+## Second screen 
 
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/second_screen.png)
 
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/second_screen2.png)
 
 
-third screen
+## Third screen
 
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/third_screen2.png)
 
