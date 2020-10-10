@@ -23,6 +23,8 @@ We can create assignments logs when we open the app. For doing those assignments
 1. As a user, I want to see all my assigment logs.
 1. As a user, I want to delete my assignment log.
 
+## Risks:
+In this Note Tracker android application we are not using any outside API as of now.
 
 ## Note Tracker Activities 
 
