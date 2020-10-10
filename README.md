@@ -27,6 +27,9 @@ We can create assignments logs when we open the app. For doing those assignments
 ## Note Tracker Activities 
 
 ### Activity 1
+If a student or a user creates an activity in to-do list of Note Tracker then the following layouts of this app are displayed.
+- Initially, if a student does not enter any text and tries to add an activity to the app.
+![](docs/Screenshot (98).png)
 
 
 
