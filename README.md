@@ -54,3 +54,11 @@ Creating Assignment log, providing submisiion date and time, Timer for starting 
 
 ### Activity 4
 
+1. created the navigation for one screen to second screeen and then second screen to third screen and finally third screen to first screen
+2. updated the first screen the user will the add the item and the item will be displayed to list of the items and in thne next screen we need to select the privority of the
+work and we can assign date and time and can set alarm and finall screen it gives the display of the message and user can enter the information regarding to it.
+
+![](https://github.com/sudheera96/NoteTracker/blob/master/docs/second_screen2.png)
+
+![](https://github.com/sudheera96/NoteTracker/blob/master/docs/third_screen2.png)
+
