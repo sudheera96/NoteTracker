@@ -34,14 +34,16 @@ We can create assignments logs when we open the app. For doing those assignments
 - Initially, if a student does not enter any text and tries to add an activity to the app,then a message will pop-up as "please enter text".
  ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/Screenshot%20(98).png?raw=true)
  
-- After entering the list of activities into list, the assignment log will display as
+- After entering the list of activities in the list of Note Tracker appears as the assignment log and it will display as
  ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/Screenshot%20(99).png?raw=true)
  
-- If a student delets a list from an activity then a message will be displayed as "Item is removed."
+- If a student deletes a list from an activity then a message will be displayed as "Item is removed."
  ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/Screenshot%20(100).png?raw=true)
  
 - After creating a list of items in to-do list of Note Tracker then a user can enter the next button 
  ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/first_screen_2.png?raw=true)
+ 
+ - After clicking on next button the user will jump into Activity 2.
 
 
 ### Activity 2 
