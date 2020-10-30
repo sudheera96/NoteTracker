@@ -33,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button);
         button3 = findViewById(R.id.button3);
 
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MainActivity2.class));
+
+
+            }
+        });
+
 
     }
 }
