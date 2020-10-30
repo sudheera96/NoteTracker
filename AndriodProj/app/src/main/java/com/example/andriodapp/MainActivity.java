@@ -52,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(itemsAdapter);
         setUpListViewListner();
     }
+    private void setUpListViewListner() {
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
 
 
 
