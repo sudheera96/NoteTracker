@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
         button3 = findViewById(R.id.button3);
 
         button3.setOnClickListener(new View.OnClickListener() {
-            @Override public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, MainActivity2.class));
 
 
@@ -48,13 +49,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         items = new ArrayList<>();
-        itemsAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,items);
+        itemsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
         listView.setAdapter(itemsAdapter);
         setUpListViewListner();
     }
+
     private void setUpListViewListner() {
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Context context = getApplicationContext();
                 Toast.makeText(context, "Item in list is removed", Toast.LENGTH_LONG).show();
                 items.remove(i);
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     private void addItem(View view) {
         EditText input = findViewById(R.id.edittext);
         String itemText = input.getText().toString();
@@ -71,7 +75,9 @@ public class MainActivity extends AppCompatActivity {
             itemsAdapter.add(itemText);
             input.setText("");
         } else {
-
-
+            Toast.makeText(getApplicationContext(), "Please enter text in list", Toast.LENGTH_LONG).show();
+        }
     }
+
+
 }
