@@ -57,7 +57,12 @@ public class MainActivity extends AppCompatActivity {
             @Override public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Context context = getApplicationContext();
                 Toast.makeText(context, "Item in list is removed", Toast.LENGTH_LONG).show();
-
+                items.remove(i);
+                itemsAdapter.notifyDataSetChanged();
+                return true;
+            }
+        });
+    }
 
 
     }
