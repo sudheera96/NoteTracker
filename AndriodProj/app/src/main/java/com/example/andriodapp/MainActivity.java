@@ -63,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    private void addItem(View view) {
+        EditText input = findViewById(R.id.edittext);
+        String itemText = input.getText().toString();
+
+        if (!(itemText.equals(""))) {
+            itemsAdapter.add(itemText);
+            input.setText("");
+        } else {
 
 
     }
