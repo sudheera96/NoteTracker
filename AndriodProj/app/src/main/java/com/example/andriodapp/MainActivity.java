@@ -54,7 +54,9 @@ public class MainActivity extends AppCompatActivity {
     }
     private void setUpListViewListner() {
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
+            @Override public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Context context = getApplicationContext();
+                Toast.makeText(context, "Item in list is removed", Toast.LENGTH_LONG).show();
 
 
 
