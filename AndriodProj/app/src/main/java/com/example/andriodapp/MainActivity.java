@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        listView = findViewById(R.id.listView);
+        button = findViewById(R.id.button);
+        button3 = findViewById(R.id.button3);
+
 
     }
 }
