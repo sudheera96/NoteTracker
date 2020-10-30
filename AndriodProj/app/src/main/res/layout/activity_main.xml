@@ -69,8 +69,8 @@
 
         <ListView
             android:id="@+id/listView"
-            android:layout_width="30dp"
-            android:layout_height="443dp" />
+            android:layout_width="337dp"
+            android:layout_height="472dp" />
     </LinearLayout>
 
     <Button
