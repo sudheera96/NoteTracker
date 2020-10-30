@@ -13,15 +13,22 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
     private ArrayList<String> items;
     private ArrayAdapter<String> itemsAdapter;
+    public ArrayList<String> data;
     private ListView listView;
     private Button button;
     private Button button3;
+    String s="";
+    FirebaseDatabase rootNode;
+    DatabaseReference reference;
 
 
     @Override
@@ -45,13 +52,29 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                data= new ArrayList<>();
                 addItem(view);
+                rootNode=FirebaseDatabase.getInstance();
+                reference=rootNode.getReference("addItem");
+                for(int i=0;i<items.size();i++)
+                {
+
+                    s=s+items.get(i);
+
+
+                    reference.setValue(s);
+
+                }
             }
+
         });
         items = new ArrayList<>();
         itemsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
         listView.setAdapter(itemsAdapter);
-        setUpListViewListner();
+
+        //setUpListViewListner();
+
+        //reference.setValue(items(i));
     }
 
     private void setUpListViewListner() {
