@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 addItem(view);
                 rootNode=FirebaseDatabase.getInstance();
                 reference=rootNode.getReference("addItem");
+
                 for(int i=0;i<items.size();i++)
                 {
 
