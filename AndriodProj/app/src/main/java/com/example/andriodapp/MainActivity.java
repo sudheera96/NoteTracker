@@ -76,12 +76,14 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    
+
     private void setUpListViewListner() {
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Context context = getApplicationContext();
+                // removing each task from to-do list
+                // adding a feedback message as a pop-up it an itemis deleted.
                 Toast.makeText(context, "Item in list is removed", Toast.LENGTH_LONG).show();
                 items.remove(i);
                 itemsAdapter.notifyDataSetChanged();
@@ -95,9 +97,11 @@ public class MainActivity extends AppCompatActivity {
         String itemText = input.getText().toString();
 
         if (!(itemText.equals(""))) {
+            // adding each task to to-do list
             itemsAdapter.add(itemText);
             input.setText("");
         } else {
+            // adding a feedback message as a alert if user tries to add an empty text
             Toast.makeText(getApplicationContext(), "Please enter text in list", Toast.LENGTH_LONG).show();
         }
     }
