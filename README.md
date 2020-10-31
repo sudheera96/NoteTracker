@@ -53,8 +53,8 @@ Creating Assignment log, providing submisiion date and time, Timer for starting 
 ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Activity%203.png)
 
 ### Activity 3
-1. Created the calender to view,and provided the alarm so as to set alarm for due dates.
-2. Also provided the alert box that provides alert messages.
+1. Created the calender to select the date,and provided the alarm so as to set alarm for due dates.
+2. Also provided the alert box to provide alert messages.
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/third_screen.png?raw=true)
 
 ### Activity 4
