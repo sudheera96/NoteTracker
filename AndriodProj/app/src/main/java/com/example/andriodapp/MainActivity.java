@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
                 for(int i=0;i<items.size();i++)
                 {
-
+                 // adding each item to database
                     s=s+items.get(i);
 
 
@@ -69,13 +69,14 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        // adding each element to arraylist in listview
         items = new ArrayList<>();
         itemsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
         listView.setAdapter(itemsAdapter);
 
 
     }
-
+    
     private void setUpListViewListner() {
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
