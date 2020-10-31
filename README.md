@@ -26,6 +26,9 @@ We can create assignments logs when we open the app. For doing those assignments
 ## Risks:
 In this Note Tracker android application we are not using any outside API as of now.
 
+## FireBase:
+We are using Firebase as database for our android App.Firebase is a real time database and open source.We are using Firebase to store our TodoList items.
+
 ## Note Tracker Activities 
 
 ### Activity 1
