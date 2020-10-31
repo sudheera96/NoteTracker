@@ -14,6 +14,7 @@ import java.util.Date;
 public class MainActivity2 extends AppCompatActivity {
     private Button NEXT1;
     private Button NEXT2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,13 +27,13 @@ public class MainActivity2 extends AppCompatActivity {
         NEXT1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity2.this,MainActivity3.class));
+                startActivity(new Intent(MainActivity2.this, MainActivity3.class));
             }
         });
         NEXT2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity2.this,MainActivity4.class));
+                startActivity(new Intent(MainActivity2.this, MainActivity4.class));
             }
         });
     }

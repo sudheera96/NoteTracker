@@ -24,11 +24,11 @@ public class MainActivity3 extends AppCompatActivity {
     private Button homeButton;
     TextView textview1;
 
-    Context mcontext=this;
+    Context mcontext = this;
 
-    Calendar calendar=Calendar.getInstance();
-    final  int hour=calendar.get(Calendar.HOUR_OF_DAY);
-    final int minute=calendar.get(Calendar.MINUTE);
+    Calendar calendar = Calendar.getInstance();
+    final int hour = calendar.get(Calendar.HOUR_OF_DAY);
+    final int minute = calendar.get(Calendar.MINUTE);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,22 +38,22 @@ public class MainActivity3 extends AppCompatActivity {
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity3.this,MainActivity.class));
+                startActivity(new Intent(MainActivity3.this, MainActivity.class));
             }
         });
-        textview1=(TextView)findViewById(R.id.TV);
-        Button AlaramButton = (Button)findViewById(R.id.startAlaram);
+        textview1 = (TextView) findViewById(R.id.TV);
+        Button AlaramButton = (Button) findViewById(R.id.startAlaram);
 
 
-        AlaramButton.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view){
-                TimePickerDialog timePickerDialog=new TimePickerDialog(mcontext,new TimePickerDialog.OnTimeSetListener(){
+        AlaramButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                TimePickerDialog timePickerDialog = new TimePickerDialog(mcontext, new TimePickerDialog.OnTimeSetListener() {
                     @Override
-                    public void  onTimeSet(TimePicker view,int hoursOfDay,int minute){
-                        textview1.setText("Alaram set to"+hoursOfDay +":" +minute);
+                    public void onTimeSet(TimePicker view, int hoursOfDay, int minute) {
+                        textview1.setText("Alaram set to" + hoursOfDay + ":" + minute);
                     }
 
-                },hour,minute,android.text.format.DateFormat.is24HourFormat(mcontext));
+                }, hour, minute, android.text.format.DateFormat.is24HourFormat(mcontext));
                 timePickerDialog.show();
             }
 
@@ -63,23 +63,20 @@ public class MainActivity3 extends AppCompatActivity {
         calendar_view1.setMinDate((new Date().getTime()));
 
 
-
-
-        TextView TV2=(TextView)findViewById(R.id.textView2);
-
+        TextView TV2 = (TextView) findViewById(R.id.textView2);
 
 
         calendar_view1.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
 
-                @Override
-                public void onSelectedDayChange(CalendarView view, int year, int month,
-                                                int dayOfMonth) {
-                    // TODO Auto-generated method stub
+            @Override
+            public void onSelectedDayChange(CalendarView view, int year, int month,
+                                            int dayOfMonth) {
+                // TODO Auto-generated method stub
 
-                    TV2.setText("Selected Date is : " + dayOfMonth +" / " + (month+1) + " / " + year);
+                TV2.setText("Selected Date is : " + dayOfMonth + " / " + (month + 1) + " / " + year);
 
-                }
-            });
             }
+        });
+    }
 
 }
