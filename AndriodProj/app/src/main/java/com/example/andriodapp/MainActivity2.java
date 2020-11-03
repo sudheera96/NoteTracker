@@ -8,12 +8,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CalendarView;
+import android.widget.TextView;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class MainActivity2 extends AppCompatActivity {
     private Button NEXT1;
     private Button NEXT2;
+    TextView calenderdate;
+
+    Calendar calendar = Calendar.getInstance();
+    final int hour = calendar.get(Calendar.HOUR_OF_DAY);
+    final int minute = calendar.get(Calendar.MINUTE);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +41,21 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity2.this, MainActivity4.class));
+            }
+        });
+
+        TextView TV2 = (TextView) findViewById(R.id.calenderdate);
+
+
+        calendar_view.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+
+            @Override
+            public void onSelectedDayChange(CalendarView view, int year, int month,
+                                            int dayOfMonth) {
+                // TODO Auto-generated method stub
+
+                TV2.setText("Due Date: "+ (month + 1) + "/"+dayOfMonth + "/" + year);
+
             }
         });
     }
