@@ -75,4 +75,35 @@ public class Note implements Comparable<Note> {
         return priority;
     }
 
-    
+    public void setPriority(String priority) {
+        this.priority = priority;
+    }
+
+    public Long getBaseTime() {
+        return baseTime;
+    }
+
+    public void setBaseTime(Long baseTime) {
+        this.baseTime = baseTime;
+    }
+
+    @Override
+    public int compareTo(Note note) {
+//        return 0;
+        SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy");
+        if (getDueDate() != null && note.getDueDate() != null) {
+            Date curObjDate, passedObjDate;
+            try {
+                curObjDate = formatter.parse(getDueDate());
+                passedObjDate = formatter.parse(note.getDueDate());
+            } catch (ParseException e) {
+                e.printStackTrace();
+                return 0;
+            }
+            return curObjDate.compareTo(passedObjDate);
+        } else {
+            return 0;
+        }
+    }
+}
+
