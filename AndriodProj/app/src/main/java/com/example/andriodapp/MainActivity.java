@@ -127,3 +127,15 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    private void saveToDB() {
+        NotesList notesList = new NotesList();
+        notesList.setNotesList(noteArrayList);
+
+
+
+        Map<String, Object> serialize = FirebaseUtil.serialize(notesList);
+        rootNode.getReference().setValue(serialize);
+    }
+
+
+}
