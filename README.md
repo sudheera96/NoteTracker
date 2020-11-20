@@ -31,52 +31,67 @@ We are using Firebase as database for our android App.Firebase is a real time da
 
 ## Note Tracker Activities 
 
+User has to click on the icon of Notetracker app if he/she wants to get into the app on any android device 
+
+![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/App%20on%20Phone%20Screen.jpeg)
+
 ### Activity 1
 
 - If a user creates an activity in to-do list of Note Tracker then the following layouts of this app are displayed.
 - After entering the list of activities into list, the assignment log will display as
 
-  ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Home%20Screen.jpeg)
+  ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/itemlist.png)
+  
    
 - If a user delets a list from an activity then a message will be displayed as "Item is removed."
+
+
  ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/After%20Delete.jpeg)
  
+ 
 - After creating a item in to-do list of Note Tracker then user can click on that item for moving into next activity
+
  
 ### Activity 2 
 
 After going into an Activity 2 of the respective created item, the user can select due date and due time 
 
+
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/SetDue%20Date%20Screen.jpeg)
+
 
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/SetDue%20Time%20Screen.jpeg)
 
+
 Then user can even set an alarm of that particular task by selecting date and time.
+
 
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/SetAlarm%20Date%20Screen.jpeg)
 
+
 ![](https://github.com/sudheera96/NoteTracker/blob/master/docs/SetAlarm%20Time%20Screen.jpeg)
+
 
 Also user can assign priority to the item.
 
+
 ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Alarm%20Screen.jpeg)
+
 
 As we can see from above image, there is timer where user can use the timer to track his/her time of that item.
 
 
-
-## First screen
-
-![](https://github.com/sudheera96/NoteTracker/blob/master/docs/first_screen.png)
-
-## Second screen 
-
-![](https://github.com/sudheera96/NoteTracker/blob/master/docs/second_screen.png)
-
-![](https://github.com/sudheera96/NoteTracker/blob/master/docs/second_screen2.png)
+After getting alarm noftifaction 
 
 
-## Third screen
+![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Alarm%20Screen.jpeg)
 
-![](https://github.com/sudheera96/NoteTracker/blob/master/docs/third_screen2.png)
+
+If a user wants to check whether the item had due date,due time, set alarm, priority he/she can go to the first acitvity,where priority, alarm due date and time will be displayed.
+
+![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Home%20Screen.jpeg)
+
+
+
+
 
