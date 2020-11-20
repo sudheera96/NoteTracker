@@ -22,5 +22,17 @@ public class NotesList {
         return notesList;
     }
 
-    
+    public void setNotesList(ArrayList<Note> notesList) {
+        this.notesList = notesList;
+    }
+
+    private static NotesList theModel = null;
+
+    //Implementing the singleton design patter for a unique object
+    public static NotesList getSingleton() {
+        if (theModel == null) {
+            theModel = new NotesList();
+        }
+        return theModel;
+    }
 }
