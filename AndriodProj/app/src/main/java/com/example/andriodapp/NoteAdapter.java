@@ -17,7 +17,19 @@ public class NoteAdapter extends ArrayAdapter<Note> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Get the data item for this position
-       
+        Note note = getItem(position);
+        // Check if an existing view is being reused, otherwise inflate the view
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_user, parent, false);
+        }
+
+        TextView noteText = (TextView) convertView.findViewById(R.id.note);
+        noteText.setText(note.getNote());
+
+        TextView dueDateText = (TextView) convertView.findViewById(R.id.dueDateText);
+        if(note.getDueDate() != null && note.getDueTime() != null) {
+            dueDateText.setText("Due date:  " + note.getDueDate() + "  " + note.getDueTime());
+        }
 
         // Return the completed view to render on screen
         return convertView;
