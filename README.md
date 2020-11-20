@@ -18,7 +18,7 @@
 
 ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/workflow.png)
 
-We can create assignments logs when we open the app. For doing those assignments at a particular time, we can add alarm. So when we get the alrm remainder, we can start the timer to check how long the assignment takes the time to complete. Also, After creating an assignment log, we can even add due date and due time and priority.
+We can create assignments logs when we open the app. For doing those assignments at a particular time, we can add alarm. So when we get the alarm remainder and we can also track th time taken to complete that particular assignment. Also, After creating an assignment log, we can even add due date and due time and priority.
 
 ## Note Tracker Application user stories
 
@@ -33,24 +33,25 @@ We can create assignments logs when we open the app. For doing those assignments
 1. As a user, I want to prioritize the assignment log as High(l), Medium(ll), Low(lll)
 1. As a user, I want to move back to first activity of app from second activity
 1. As a user, I want to add more assignment logs.
-1. As a user, I want to see all my assigment logs without due date and time, alarm, priority and with due date and time, alarm, priority.
+1. As a user, I want to see all my assignment logs without due date and time, alarm, priority and with due date and time, alarm, priority.
 1. As a user, I want to delete my assignment log.
 
 ## Risks:
-In this Note Tracker android application we are not using any outside API as of now.
+In this Note Tracker android application we are not using any outside API.
 
 ## FireBase:
 We are using Firebase as database for our android App.Firebase is a real time database and open source.We are using Firebase to store our TodoList items,due dates, due times, priorities, alarm, and timer.
+
+## Instructions to use this App: 
+
+After opening the app, user has to enter the his/her todo list work. Then user need to click on add item for displaying that todolist as a list. If the user wants to remove the added item, then user has to give long press on that item for deleting. After deletion a toast message will be display that item had deleted. For giving the due date and due time, alarm, priority for that item,user has to click on the item,it will redirect to second activity. In the second activity, user will be able to see the created item name, for that selected item, user can set due date by clicking on due date and time icon.Also user can set alarm by clicking alarm icon. For selecting the priority to any item , user has to select either |, || or |||. To check whether item has dates, priority, alarm user has to clcik on back arrow in second activity for going into first activity. So after reaching the first activity user can see the ltem along with due dates,priority. When user gets alarm notification,user will be able to see notification with the item name on screen. Then user can open the app again to start working on that item. Also user can keep track of time how long the work took to compelete by clicking on the timer. Here user can stop and pause and play the timer according to their convenience.
+
 
 ## Note Tracker Activities 
 
 User has to click on the icon of Notetracker app if he/she wants to get into the app on any android device 
 
 ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/App%20on%20Phone%20Screen.jpeg)
-
-#### Description: 
-
-After opening the app, user has to enter the his/her todo list work. Then user need to click on add item for displaying that todlist as a list. If the user wants to remove the added item, then user has to give long press on that item for deleting. After deletion a toast message will be display that item had deleted. For giving the due date and due time, alaram, priority for that item user has to clcik on the click,it will redirect to second activity. In the second activity, user can able to see the created item name for that user can set due date by clicking on due date and time icon.Also user can set alarm by clicking alarm icon. For slecting the pripority after item name user has to select either |, || or |||. To check whether item had dates, priority, alarm user has to clcik on back arrow in second activity for going into first activity. So after reaching the first activity user can see them. When user gets alarm notification,user can able to see notification with the item name on screen. Then user can open the app again to start working on that item. Also user can keep track of time how long the work took to compelete by clicking on the timer. Here user can stop and pause and paly the timer according to their convenient.   
 
 ### Activity 1
 
@@ -60,7 +61,7 @@ After opening the app, user has to enter the his/her todo list work. Then user n
   ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/itemlist.png)
   
    
-- If a user delets a list from an activity then a message will be displayed as "Item is removed."
+- If a user deletes a list from an activity then a message will be displayed as "Item is removed."
 
 
  ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/After%20Delete.jpeg)
@@ -98,13 +99,13 @@ Also user can assign priority to the item.
 As we can see from above image, there is timer where user can use the timer to track his/her time of that item.
 
 
-After setting alram, user can able to see his/her notification of alram on screen
+After setting alarm, user can able to see his/her notification of alarm on screen
 
 
 ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Alarm%20Screen.jpeg)
 
 
-If a user wants to check whether the item had due date,due time, set alarm, priority he/she can go to the first acitvity,where priority, alarm due date and time will be displayed.
+If a user wants to check whether the item had due date, due time, set alarm, priority he/she can go to the first activity,where priority, alarm due date and time will be displayed.
 
 ![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Home%20Screen.jpeg)
 
