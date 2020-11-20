@@ -19,6 +19,18 @@ public enum FirebaseUtil {
         OBJECT_MAPPER.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
     }
 
-   
+    public static Map<String, Object> serialize(Object o) {
+        // Convert to a Map<String,Object> using Jackson and then pass that to Firebase
+        return OBJECT_MAPPER.convertValue(o, JAVA_TYPE);
+    }
+
+    public static <T> T deserialize(DataSnapshot dataSnapshot, Class<T> tClass) {
+        // Use Firebase to convert to a Map<String,Object>
+        GenericTypeIndicator<Map<String, Object>> genericTypeIndicator = new GenericTypeIndicator<Map<String, Object>>() {
+        };
+        Map<String, Object> map = dataSnapshot.getValue(genericTypeIndicator);
+        // Use Jackson to convert from a Map to an Office object
+        return OBJECT_MAPPER.convertValue(map, tClass);
+    }
 
 }
