@@ -60,6 +60,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
     <TextView
         android:id="@+id/noteText"
         android:layout_width="match_parent"
@@ -234,7 +235,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

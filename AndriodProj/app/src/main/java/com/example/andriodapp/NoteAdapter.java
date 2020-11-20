@@ -27,8 +27,49 @@ public class NoteAdapter extends ArrayAdapter<Note> {
         noteText.setText(note.getNote());
 
         TextView dueDateText = (TextView) convertView.findViewById(R.id.dueDateText);
-        if(note.getDueDate() != null && note.getDueTime() != null) {
-            dueDateText.setText("Due date:  " + note.getDueDate() + "  " + note.getDueTime());
+
+        if(note.getDueDate() == null && note.getDueTime() == null) {
+            dueDateText.setText("");
+        }
+
+        if(note.getDueDate() != null || note.getDueTime() != null) {
+
+            StringBuilder stringBuilder = new StringBuilder();
+
+            stringBuilder.append("Due on: ");
+
+            if(note.getDueDate() != null){
+                stringBuilder.append(note.getDueDate() + " ");
+            }
+
+            if(note.getDueTime() != null) {
+                stringBuilder.append(note.getDueTime());
+            }
+
+            dueDateText.setText(stringBuilder.toString());
+
+            TextView alarmText = (TextView) convertView.findViewById(R.id.alarmEditBg);
+            if(note.getAlarmTime() != null) {
+                alarmText.setVisibility(View.VISIBLE);
+            }
+        }
+
+        TextView priorityEditText = (TextView) convertView.findViewById(R.id.priorityEditText);
+
+        if(note.getPriority() == null) {
+            priorityEditText.setText("");
+        }
+
+        if(note.getPriority() != null) {
+            if(note.getPriority().equalsIgnoreCase("p1")) {
+                priorityEditText.setText(" I ");
+            }
+            if(note.getPriority().equalsIgnoreCase("p2")) {
+                priorityEditText.setText(" II ");
+            }
+            if(note.getPriority().equalsIgnoreCase("p3")) {
+                priorityEditText.setText(" III ");
+            }
         }
 
         // Return the completed view to render on screen
