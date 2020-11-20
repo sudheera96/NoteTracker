@@ -108,6 +108,10 @@ If a user wants to check whether the item had due date,due time, set alarm, prio
 - Press "Enter" to create your local clone.
 - Then open this folder using "Android Studio" and then run this app using emulator.
 
+## Supported Devices
 
+- It works on all android devices
+- Android 5.0(Lollipop) and above versions
+- Minimum SDK version is 21 and target SDK version 29
 
 
