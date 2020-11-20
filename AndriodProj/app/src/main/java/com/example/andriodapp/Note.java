@@ -63,5 +63,16 @@ public class Note implements Comparable<Note> {
         this.dueTime = dueTime;
     }
 
-   
+    public String getAlarmTime() {
+        return alarmTime;
+    }
 
+    public void setAlarmTime(String alarmTime) {
+        this.alarmTime = alarmTime;
+    }
+
+    public String getPriority() {
+        return priority;
+    }
+
+    
