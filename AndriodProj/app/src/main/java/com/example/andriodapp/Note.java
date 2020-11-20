@@ -21,5 +21,47 @@ public class Note implements Comparable<Note> {
     public Note() {
     }
 
-    
+    public Note(Long id, String note, String dueDate, String dueTime, String alarmTime, String priority, Long baseTime) {
+        this.id = id;
+        this.note = note;
+        this.dueDate = dueDate;
+        this.dueTime = dueTime;
+        this.alarmTime = alarmTime;
+        this.priority = priority;
+        this.baseTime = baseTime;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
+    }
+
+    public String getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(String dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    public String getDueTime() {
+        return dueTime;
+    }
+
+    public void setDueTime(String dueTime) {
+        this.dueTime = dueTime;
+    }
+
+   
 
