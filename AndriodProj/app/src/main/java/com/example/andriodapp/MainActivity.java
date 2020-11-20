@@ -32,4 +32,19 @@ public class MainActivity extends AppCompatActivity {
     private ListView listView;
     private Button button;
     FirebaseDatabase rootNode;
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Collections.sort(noteArrayList);
+        noteAdapter.notifyDataSetChanged();
+    }
 
+    /* (non-Javadoc)
+     * @see android.app.Activity#onStart()
+     */
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Collections.sort(noteArrayList);
+        noteAdapter.notifyDataSetChanged();
+    }
