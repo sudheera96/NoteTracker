@@ -25,4 +25,11 @@ class NotificationHelper extends ContextWrapper {
                 NotificationManager.IMPORTANCE_HIGH);
         getManager().createNotificationChannel(channel);
     }
+    public NotificationManager getManager() {
+        if (notificationManager == null) {
+            notificationManager = (NotificationManager)
+                    getSystemService(Context.NOTIFICATION_SERVICE);
+        }
+        return notificationManager;
+    }
     
