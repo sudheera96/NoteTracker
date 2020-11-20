@@ -277,7 +277,23 @@ public class MainActivity2 extends AppCompatActivity {
         setSaveVisible();
     }
 
+    public void btnP3(View v) {
+        clearPriorityBgs();
+        ((TextView) findViewById(R.id.p3)).setBackgroundColor(priorityColor);
+        prioritySelected = "p3";
+        noteArrayList.get(positionOfClickValue).setPriority(prioritySelected);
+        setSaveVisible();
+    }
 
+    private void clearPriorityBgs() {
+        ((TextView) findViewById(R.id.p1)).setBackground(ContextCompat.getDrawable(this, R.drawable.p2));
+        ((TextView) findViewById(R.id.p2)).setBackground(ContextCompat.getDrawable(this, R.drawable.p2));
+        ((TextView) findViewById(R.id.p3)).setBackground(ContextCompat.getDrawable(this, R.drawable.p2));
+    }
+
+    public void test(View v) {
+
+    }
 
 
 
