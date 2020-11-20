@@ -261,3 +261,26 @@ public class MainActivity2 extends AppCompatActivity {
         chronometer.setBase(SystemClock.elapsedRealtime());
         pauseOffset = 0;
     }
+    public void btnP1(View v) {
+        clearPriorityBgs();
+        ((TextView) findViewById(R.id.p1)).setBackgroundColor(priorityColor);
+        prioritySelected = "p1";
+        noteArrayList.get(positionOfClickValue).setPriority(prioritySelected);
+        setSaveVisible();
+    }
+
+    public void btnP2(View v) {
+        clearPriorityBgs();
+        ((TextView) findViewById(R.id.p2)).setBackgroundColor(priorityColor);
+        prioritySelected = "p2";
+        noteArrayList.get(positionOfClickValue).setPriority(prioritySelected);
+        setSaveVisible();
+    }
+
+
+
+
+
+
+
+
