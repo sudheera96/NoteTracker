@@ -32,4 +32,10 @@ class NotificationHelper extends ContextWrapper {
         }
         return notificationManager;
     }
-    
+    public NotificationCompat.Builder getChannelNotification(Note selectedNoteObj) {
+        return new NotificationCompat.Builder(getApplicationContext(), channelID)
+                .setContentTitle("Note: " + selectedNoteObj.getNote())
+                .setContentText("Due: " + selectedNoteObj.getDueDate() + " " + selectedNoteObj.getDueTime())
+                .setSmallIcon(R.drawable.alarm);
+    }
+}
