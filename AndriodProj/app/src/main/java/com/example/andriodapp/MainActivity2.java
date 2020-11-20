@@ -297,6 +297,18 @@ public class MainActivity2 extends AppCompatActivity {
 
 
 
+    private void setSaveVisible() {
+        ((Button) findViewById(R.id.save)).setVisibility(View.VISIBLE);
+    }
+
+    public void saveToDB(View v) {
+        NotesList notesList = new NotesList();
+        notesList.setNotesList(noteArrayList);
+        Map<String, Object> serialize = FirebaseUtil.serialize(notesList);
+        rootNode.getReference().setValue(serialize);
+        ((Button) findViewById(R.id.save)).setVisibility(View.INVISIBLE);
+    }
+}
 
 
 
