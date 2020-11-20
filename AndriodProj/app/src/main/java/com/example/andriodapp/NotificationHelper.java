@@ -19,4 +19,10 @@ class NotificationHelper extends ContextWrapper {
             createChannel();
         }
     }
- 
+    @TargetApi(Build.VERSION_CODES.O)
+    private void createChannel() {
+        NotificationChannel channel = new NotificationChannel(channelID, channelName,
+                NotificationManager.IMPORTANCE_HIGH);
+        getManager().createNotificationChannel(channel);
+    }
+    
