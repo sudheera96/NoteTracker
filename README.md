@@ -45,22 +45,25 @@ We are using Firebase as database for our android App.Firebase is a real time da
  
 ### Activity 2 
 
-Creating Assignment log, providing submisiion date and time, Timer for starting the assignment, making priority, providing alert
+After going into an Activity 2 of the respective created item, the user can select due date and due time 
 
-![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Activity%203.png)
+![](https://github.com/sudheera96/NoteTracker/blob/master/docs/SetDue%20Date%20Screen.jpeg)
 
-### Activity 3
-1. Created the calender to select the date,and provided the alarm so as to set alarm for due dates.
-2. Also provided the alert box to provide alert messages.
-![](https://github.com/sudheera96/NoteTracker/blob/master/docs/third_screen.png?raw=true)
+![](https://github.com/sudheera96/NoteTracker/blob/master/docs/SetDue%20Time%20Screen.jpeg)
 
-### Activity 4
+Then user can even set an alarm of that particular task by selecting date and time.
 
-1. created the navigation for one screen to second screeen and then second screen to third screen and finally third screen to first screen
-2. updated the first screen the user will the add the item and the item will be displayed to list of the items and in thne next screen we need to select the privority of the
-work and we can assign date and time and can set alarm and finall screen it gives the display of the message and user can enter the information regarding to it.
+![](https://github.com/sudheera96/NoteTracker/blob/master/docs/SetAlarm%20Date%20Screen.jpeg)
 
-updated screens and  navigation  from one screen to another screen
+![](https://github.com/sudheera96/NoteTracker/blob/master/docs/SetAlarm%20Time%20Screen.jpeg)
+
+Also user can assign priority to the item.
+
+![](https://raw.githubusercontent.com/sudheera96/NoteTracker/master/docs/Alarm%20Screen.jpeg)
+
+As we can see from above image, there is timer where user can use the timer to track his/her time of that item.
+
+
 
 ## First screen
 
