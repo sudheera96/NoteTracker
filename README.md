@@ -9,7 +9,8 @@
 <td align="center"><a href="https://github.com/KHARIKA17"><img src="https://avatars2.githubusercontent.com/u/60010885?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Harika Kulkarni</b></sub></a><br />
 <a href="https://github.com/sudheera96/NoteTracker/blob/master/docs/Harika_Commits.md">Commits<a/></td>
 
-<td align="center"><a href="https://github.com/Saikrishna1545"><img src="https://avatars1.githubusercontent.com/u/60013018?s=460&u=4687be0646ecbb59bd281276c302eba966ff5f64&v=4" width="100px;" alt=""/><br /><sub><b>Sai Krishna Emmadishetty</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/Saikrishna1545"><img src="https://avatars1.githubusercontent.com/u/60013018?s=460&u=4687be0646ecbb59bd281276c302eba966ff5f64&v=4" width="100px;" alt=""/><br /><sub><b>Sai Krishna Emmadishetty</b></sub></a><br />
+<a href="https://github.com/sudheera96/NoteTracker/blob/master/docs/SaiKrishna.md">Commits<a/></td>
 
 <td align="center"><a href="https://github.com/Rajeshwari-Rudra"><img src="https://avatars1.githubusercontent.com/u/60014358?s=460&u=b6e1e1ffa7551e5140b5a565a73ba572c362addc&v=4" width="100px;" alt=""/><br /><sub><b>Rajeshwari Rudravaram</b></sub></a><br /><a href="https://github.com/sudheera96/NoteTracker/blob/master/docs/RajeshwariCommits.md">Commits</a></td>
   
