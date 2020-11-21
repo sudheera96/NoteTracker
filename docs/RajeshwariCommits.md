@@ -35,7 +35,7 @@ Added setter methods to ArrayList and a singleton method
 * https://github.com/sudheera96/NoteTracker/commit/9aaf15f22857212af9ba10fc4f28c89ab50175dc
 
 Added new file as FirebaseUtil.java in which declared few attributes and initialized with certain methods.
- 
+
 * https://github.com/sudheera96/NoteTracker/commit/54f32de5138ac4f0006b36f4250bc7ccd33b4769
 
 I have added all the instructions for the activity2 when a user gets from one activity to other activity.The user can setup the due date and due time of that specific item and he/she can set the alarm time and date based on his/her requirements.
