@@ -23,7 +23,7 @@ In Main activity2, I have added on click listeners to various buttons. I have al
 
 In Main activity2, I have added methods to clear the priorities 1,2 that are defined in activity2.
 
-*.	https://github.com/sudheera96/NoteTracker/commit/6f0cc426d31969da009b1f91599f445eb46eae1d
+*	https://github.com/sudheera96/NoteTracker/commit/6f0cc426d31969da009b1f91599f445eb46eae1d
 
 In Main activity2, I have added methods to clear the priority for priority 3 that is defined in activity2.
 
