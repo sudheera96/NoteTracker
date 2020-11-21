@@ -6,7 +6,8 @@
 <table>
 <td align="center"><a href="https://github.com/sudheera96"><img src="https://avatars3.githubusercontent.com/u/22390581?s=460&u=e2a3ccb663ae34048a4c2233bb9a530d2de29a9c&v=4" width="100px;" alt=""/><br /><sub><b>Sri Sudheera Chitipolu</b></sub></a><br /><a href="https://github.com/sudheera96/NoteTracker/blob/master/docs/Sudheeracommits.md">Commits</a></td>
     
-<td align="center"><a href="https://github.com/KHARIKA17"><img src="https://avatars2.githubusercontent.com/u/60010885?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Harika Kulkarni</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/KHARIKA17"><img src="https://avatars2.githubusercontent.com/u/60010885?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Harika Kulkarni</b></sub></a><br />
+<a href="https://github.com/sudheera96/NoteTracker/blob/master/docs/Harika_Commits.md">Commits<a/></td>
 
 <td align="center"><a href="https://github.com/Saikrishna1545"><img src="https://avatars1.githubusercontent.com/u/60013018?s=460&u=4687be0646ecbb59bd281276c302eba966ff5f64&v=4" width="100px;" alt=""/><br /><sub><b>Sai Krishna Emmadishetty</b></sub></a><br /></td>
 
