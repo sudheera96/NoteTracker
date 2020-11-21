@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private ListView listView;
     private Button button;
     FirebaseDatabase rootNode;
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -48,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         Collections.sort(noteArrayList);
         noteAdapter.notifyDataSetChanged();
     }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -127,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
     private void saveToDB() {
         NotesList notesList = new NotesList();
         notesList.setNotesList(noteArrayList);
