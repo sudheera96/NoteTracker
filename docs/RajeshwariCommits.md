@@ -20,3 +20,22 @@ Added another textView as a dueDate and matched all the constraints accordingly.
 
 Added new java folder as NoteAdapter and defined few attributes using datatypes.
 
+* https://github.com/sudheera96/NoteTracker/commit/ecb290611824f29a9257168d59a3e9f9e6cb7441
+
+Added declaration to all the items as note and textViews with getter methods.
+
+* https://github.com/sudheera96/NoteTracker/commit/d1fa2de130971db00a04dfd25f965ff2786fcf1c
+
+Created new NoteList.java file and added all the required methods including Arraylist and constructors.
+
+* https://github.com/sudheera96/NoteTracker/commit/b25b632386ae1dcfb6fbb7ff275f702e9e9143e5
+
+Added setter methods to ArrayList and a singleton method
+
+* https://github.com/sudheera96/NoteTracker/commit/9aaf15f22857212af9ba10fc4f28c89ab50175dc
+
+Added new file as FirebaseUtil.java in which declared few attributes and initialized with certain methods.
+ 
+* https://github.com/sudheera96/NoteTracker/commit/54f32de5138ac4f0006b36f4250bc7ccd33b4769
+
+I have added all the instructions for the activity2 when a user gets from one activity to other activity.The user can setup the due date and due time of that specific item and he/she can set the alarm time and date based on his/her requirements.
