@@ -134,6 +134,46 @@ If a user wants to check whether the item had due date, due time, set alarm, pri
 - Android 5.0(Lollipop) and above versions
 - Minimum SDK version is 21 and target SDK version 29
 
+## Completion Status 
+
+1. As a user, I want to open application.
+- [X] User can click on app icon to open the application after installing the Notetracker - Completed 
+2. As a user, I want to create assignment log, after opening application.
+- [X] User can give their to do item by typing text - Completed
+- [X] User can add the to do item by clicking on add item button - Completed 
+- [X] User can move to other screen on clicking particular item - Completed 
+3. As a user, I want to add submission date and time, after creating assignment log.
+- [X] User can click on the particular to do item for adding submission(due) date and time - Completed
+- [X] User can add submission date and time by clcicking on due date and dute time icon - Completed 
+- [X] User can save submission date and time by clicking on save button - Completed
+- [X] User can change submission date and time even after saving them - Completed
+4. As a user, I want to set alarm for start doing the assignment, after adding submission date and time.
+- [X] User can set alarm date and time by clcicking on alarm icon - Completed 
+- [X] User can save alarm by clicking on save button - Completed
+- [X] User can change alarm date and time even after saving them - Completed
+5. As a user, I want to  see notification of alarm on screen.
+- [X] User can see alarm notification with details of respective to do item on phone screen - Completed
+6. As a user, I want to start the timer for doing the assignment, after getting remainder of alarm.
+- [X] After alarm, user can open app and use timer - Completed
+- [X] User can click on play button for starting the timer - Completed
+7. As a user, I want to pause the timer.
+- [X] User can click on pause button for pausing the time - Completed
+- [X] User can click on save button for saving the timer data - Completed
+8. As a user, I want to stop the timer.
+- [X] User can click on stop button for timer to get back to its initial position - Completed
+9. As a user, I want to prioritize the assignment log as High(l), Medium(ll), Low(lll)
+- [X] User can prioritize by clicking on these symbols l,ll,lll - Completed
+- [X] User can save them by clciking the save button - Completed
+10. As a user, I want to move back to first activity of app from second activity
+- [X] User can click on back arrow on the second activity for going into first activity - Completed
+11. As a user, I want to add more assignment logs.
+- [X] User can give more than one to do item - Completed
+12. As a user, I want to see all my assignment logs without due date and time, alarm, priority and with due date and time, alarm, priority.
+- [X] User can see just their all list of to do items at once - Completed  
+13. As a user, I want to delete my assignment log.
+- [X] User can give long press on particular item for deletion - Completed
+- [X] User can see a meesage after deletion "item in the list is removed" - Completed
+
 ## References
 [Timer](https://www.youtube.com/watch?v=3G_dsFv2n6M)
 
